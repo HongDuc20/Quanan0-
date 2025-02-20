@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url(https://phatgiaodongnai.org/upload/2024/BTS%20PG%20t%E1%BB%89nh/Phat%20dan%202024/hoat%20dong%20thien%20nguyen%201/z5433133958580_d4381c249ced5c4e609d9ce449e4d9cc.jpg);
+}
+
+.header h1 {
+  font-size: 50px;
+  color: deeppink;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #56e68d;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #268a60;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: hsl(180, 68%, 62%);
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: rgb(53, 24, 160);
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Quán ăn 0đ</h1>
+  <p>Luôn sẵn sàng vì bạn</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Trang chủ</a>
+  <a href="#">Địa chỉ các quán</a>
+  <a href="#">Thông tin dự án</a>
+  <a href="#" style="float:right">Đăng kí hỗ trợ</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>ĐÔI NÉT VỀ DỰ ÁN</h2>      <h5>dự án tình thương  13/2/2025 </h5>
+      
+        <img src="https://static.tuoitre.vn/tto/r/2016/07/21/anh-2-jpg-1469111206.jpg" width="300px" height="auto">
+      
+      <p>Xuất phát từ tình thương</p>
+      <p>Nơi đây chúng tôi có bán những bữa cơm tình thương giành cho những mảnh đời cơ nhỡ, kém may mắn hơn chúng tôi. Không chỉ vậy, chúng tôi không phân biệt lứa tuổi,giới tính và người trong cộng đồng. Và khi bạn muốn góp sức với quán ăn. Hãy mạnh dạn đăng kí và hỗ trợ những gì bạn có thể. Góp công góp sức tùy theo khả năng của mình. </p>
+    
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Các địa điểm áp dụng chương trình</h2>
+            <h5>đăng nhập để thep dõi chi tiết</h5>
+          
+           <p>Để truyền tải rộng rãi thông điệp yêu thương, chúng tôi trao đổi với nhau qua trang web này, hãy liên hệ khi bạn cần hoặc muốn giúp đỡ. Cùng nhau phổ biến rộng rãi chương trình này</p>
+            
+          </div>
+          
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Thông tin liên hệ</h2>
+            <div class="fakeimg" style="height:100px;">SĐT:0934785310</div>
+            <p>92 Trần Nhân Tôn, phường 2, quận 10</p>
+          </div>
+          <div class="card">
+            <h3>Hoạt động nổi bật</h3>
+            <img src="https://kenh14cdn.com/203336854389633024/2021/9/29/photo-6-16329208213081974059182.jpg" width="150px" height="120px">
+            <div class="fakeimg"><p>Image</p></div>
+            
+          </div>
+          
+        </div>
+      </div>
+    
+    <div class="card">
+      <h3>Đăng kí ngay</h3>
+      <p>Tình thương ở mọi nơi.</p>
+      <label for="name"> Họ và Tên:</label>
+      <input type="text" id="name" name="name" required> <br>
+
+      
+      
+    </div>
+  </div>
+   
+  
+<div class="footer">
+  <h2>@2025 Ngũ Vị Hương 12a14</h2>
+</div>
+
+</body>
+</html>
+
+
